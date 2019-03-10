@@ -9,7 +9,7 @@ x2 = ''
 #Hàm xử lí
 def pt_bac_hai(a, b, c):
     while a != 0:
-        total1 = a + b + c #Trường hợp đặc biệt a +b + c = 0
+        total1 = a + b + c #Trường hợp đặc biệt a + b + c = 0
         total2 = a - b + c #Trường hợp đặc biệt a - b + c =0
         if total1 == 0:
             x1 = 1
